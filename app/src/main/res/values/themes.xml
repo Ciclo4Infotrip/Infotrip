@@ -42,4 +42,16 @@
 
     </style>
 
+    <style name="Texto_subtitulo3">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="Texto_normal2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 </resources>

@@ -10,4 +10,7 @@
     <string name="sitios">Sitios de Interés:</string>
     <string name="sitios2">Basílica de la Inmaculada Concepción, Mirador Cristo Rey, Teleférico la Garrucha, Cueva del Esplendor, Cueva de los Guácharos, Las Trucheras, Otros sitios de comida: Macanas Jardín, Dulces de Jardín.</string>
     <string name="iglesia">Basílica de la Inmaculada Concepción</string>
+    <string name="descripcion_iglesia2">Es una basílica católica colombiana, es un templo de estilo neogótico, construido en su totalidad en piedra labrada a mano extraída de una cantera en la vereda Serranías del municipio.</string>
+    <string name="descripcion_iglesia">Es una basílica católica colombiana, es un templo de estilo neogótico.</string>
+    <string name="puntuacion_iglesia">Puntuación: 4.8 / 5</string>
 </resources>
