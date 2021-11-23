@@ -1,5 +1,6 @@
-package com.karendamore.metabile
+package com.karendamore.Infotrip
 
+import Infotrip.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,7 +31,7 @@ class JardinAdapter(
         private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
         private var descripcionTextView: TextView = itemView.findViewById(R.id.descripcion_text_view)
         private var puntuacionTextView: TextView = itemView.findViewById(R.id.puntuacion_text_view)
-        private var pictureTextView: TextView = itemView.findViewById(R.id.picture_image_view)
+        private var pictureImageView = itemView.findViewById<TextView>(R.id.picture_image_view)
 
         fun bind(jardin: Jardin){
             nameTextView.text = jardin.nombre

@@ -1,5 +1,6 @@
-package com.karendamore.metabile
+package com.karendamore.Infotrip
 
+import Infotrip.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
