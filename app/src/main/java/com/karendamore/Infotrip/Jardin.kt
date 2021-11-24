@@ -1,4 +1,6 @@
 package com.karendamore.Infotrip
 
-data class Jardin (
-    val nombre: String, val descripcion: String, val puntuacion: String)
+
+import com.google.gson.annotations.SerializedName
+
+class Jardin : ArrayList<JardinItem>()
