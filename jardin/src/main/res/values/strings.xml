@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jardin</string>
+   
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="jardin">Jardín (Antioquia)</string>
+    <string name="informacion_jardin">Información General</string>
+    <string name="descripcion_jardin">El municipio de Jardín se encuentra en el Suroeste del Departamento de Antioquia, está ubicado a 134 kilómetros de Medellín (aproximadamente tres horas)., es uno de los pueblos patrimonio más lindos de Colombia, un pueblito paisa muy colorido y acogedor, reconocido por su civismo, casas, balcones, guayacanes, rosales, atardeceres, aves, trucheras, cascadas y por el carácter amable y acogedor de sus habitantes.</string>
+    <string name="coordenadas">Coordenadas:</string>
+    <string name="coordenadas2">5°35′54″N 75°49′11″O / 5.5983333333333, -75.819722222222</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="temperatura2">26°C</string>
+    <string name="sitios">Sitios de Interés:</string>
+    <string name="sitios2">Basílica de la Inmaculada Concepción, Mirador Cristo Rey, Teleférico la Garrucha, Cueva del Esplendor, Cueva de los Guácharos, Las Trucheras, Otros sitios de comida: Macanas Jardín, Dulces de Jardín.</string>
+    <string name="iglesia">Basílica de la Inmaculada Concepción</string>
+    <string name="descripcion_iglesia2">Es una basílica católica colombiana, es un templo de estilo neogótico, construido en su totalidad en piedra labrada a mano extraída de una cantera en la vereda Serranías del municipio.</string>
+    <string name="descripcion_iglesia">Es una basílica católica colombiana, es un templo de estilo neogótico.</string>
+    <string name="puntuacion_iglesia">Puntuación: 4.8 / 5</string>
+    <string name="puntuacion">Puntuación:</string>
+
+</resources>

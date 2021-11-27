@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Infotrip"
 include ':app'
+include ':jardin'

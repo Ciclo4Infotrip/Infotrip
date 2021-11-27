@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Infotrip">
         <activity
-            android:name="com.karendamore.Infotrip.ListJardinActivity"
+            android:name="com.karendamore.Infotrip.list.ListJardinActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.karendamore.Infotrip.RegistroJardinActivity"
-            android:exported="false" />
+            android:name="com.karendamore.Infotrip.registro.RegistroJardinActivity"
+            android:exported="false">
+        </activity>
         <activity
-            android:name="com.karendamore.Infotrip.MainActivity"
+            android:name="com.karendamore.Infotrip.detalle.DetalleActivity"
             android:exported="true">
         </activity>
     </application>
