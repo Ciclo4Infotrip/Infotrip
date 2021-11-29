@@ -5,17 +5,18 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.karendamore.jardin.databinding.FragmentListBinding
+import com.karendamore.jardin.main.MainActivity
 import com.karendamore.jardin.model.Jardin
 import com.karendamore.jardin.model.JardinItem
 
 class ListFragment : Fragment() {
     private lateinit var listBinding: FragmentListBinding
-    private lateinit var JardinAdapter: JardinAdapter
+    private lateinit var jardinAdapter: JardinAdapter
     private lateinit var listJardin: ArrayList<JardinItem>
-
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,22 +30,32 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listJardin = loadMockJardinFromJson()
-        JardinAdapter = JardinAdapter(listJardin, onItemClicked = { onJardinClicked() })
+        jardinAdapter = JardinAdapter(listJardin, onItemClicked = { onJardinClicked(it) })
+
+        listBinding.jardinRecyclerView.apply {
+            layoutManager = LinearLayoutManager(context)
+            adapter = jardinAdapter
+            setHasFixedSize(false)
+        }
     }
 
-    private fun onJardinClicked() {
-        
+    private fun onJardinClicked(jardin: JardinItem){
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(jardin = jardin))
+
+
     }
 
-    /*private fun JardinAdapter(jardinList: ArrayList<JardinItem>): JardinAdapter {
 
-    }*/
+
 
     private fun loadMockJardinFromJson(): ArrayList<JardinItem> {
-        val jardinString: String = context?.assets?.open("jardin.json")?.bufferedReader().use { it!!.readText() }
+        val jardinString: String =
+            context?.assets?.open("jardin.json")?.bufferedReader().use { it!!.readText() }
         val gson = Gson()
         val jardinList = gson.fromJson(jardinString, Jardin::class.java)
         return jardinList
     }
 }
+

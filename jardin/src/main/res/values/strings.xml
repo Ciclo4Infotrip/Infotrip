@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Jardin</string>
-   
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="jardin">Jardín (Antioquia)</string>
@@ -17,5 +17,28 @@
     <string name="descripcion_iglesia">Es una basílica católica colombiana, es un templo de estilo neogótico.</string>
     <string name="puntuacion_iglesia">Puntuación: 4.8 / 5</string>
     <string name="puntuacion">Puntuación:</string>
+
+    <!-- Sync Preferences -->
+    <string name="notifications">Notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Preferencias</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="preferences">Preferencias</string>
+    <string name="appdrawer">appdrawer</string>
 
 </resources>
