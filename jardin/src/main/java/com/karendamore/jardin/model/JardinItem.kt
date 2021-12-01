@@ -12,5 +12,7 @@ data class JardinItem(
     @SerializedName("puntuacion")
     val puntuacion: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("informacion")
+    val informacion: String,
 ) : Serializable

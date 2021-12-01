@@ -36,7 +36,7 @@ class DetailFragment : Fragment() {
 
         with(detailBinding){
             nameTextView.text = jardin.nombre
-            descripcion2TextView.text = jardin.descripcion
+            informacionTextView.text = jardin.informacion
             puntuacionTextView.text = jardin.puntuacion
             com.squareup.picasso.Picasso.get().load(jardin.urlPicture).into(pictureImageView)
 
