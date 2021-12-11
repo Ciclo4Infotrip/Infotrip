@@ -1,4 +1,4 @@
-package com.karendamore.jardin.bottom
+package com.karendamore.jardin.ui.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

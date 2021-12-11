@@ -1,4 +1,4 @@
-package com.karendamore.jardin.detail
+package com.karendamore.jardin.ui.detail
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.karendamore.jardin.databinding.FragmentDetailBinding
-import com.karendamore.jardin.main.MainActivity
+import com.karendamore.jardin.ui.main.MainActivity
 import com.squareup.picasso.Picasso
 
 

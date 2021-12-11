@@ -1,4 +1,4 @@
-package com.karendamore.jardin.main
+package com.karendamore.jardin.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.karendamore.jardin.R
-import com.karendamore.jardin.preference.SettingsFragment
+import com.karendamore.jardin.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

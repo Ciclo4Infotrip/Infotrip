@@ -1,4 +1,4 @@
-package com.karendamore.jardin.detail
+package com.karendamore.jardin.ui.detail
 
 import androidx.lifecycle.ViewModel
 

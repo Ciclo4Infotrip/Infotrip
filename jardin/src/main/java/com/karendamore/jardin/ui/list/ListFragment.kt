@@ -1,4 +1,4 @@
-package com.karendamore.jardin.list
+package com.karendamore.jardin.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.karendamore.jardin.databinding.FragmentListBinding
-import com.karendamore.jardin.main.MainActivity
+import com.karendamore.jardin.ui.main.MainActivity
 import com.karendamore.jardin.model.JardinItem
+import kotlinx.coroutines.DelicateCoroutinesApi
 
 class ListFragment : Fragment() {
     private lateinit var listBinding: FragmentListBinding
@@ -26,10 +27,14 @@ class ListFragment : Fragment() {
         listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
         return listBinding.root
     }
+    @DelicateCoroutinesApi
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockJardinFromJson(context?.assets?.open("jardin.json"))
+
+        //listViewModel.loadMockJardinFromJson(context?.assets?.open("jardin.json"))
+
+        listViewModel.getJardinFromServer()
 
         listViewModel.onJardinLoaded.observe(viewLifecycleOwner, { result ->
             onJardinLoadedSubscribe(result)

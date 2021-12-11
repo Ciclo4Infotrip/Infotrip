@@ -1,16 +1,30 @@
-package com.karendamore.jardin.list
+package com.karendamore.jardin.ui.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
+import com.karendamore.jardin.data.JardinRepository
 import com.karendamore.jardin.model.Jardin
 import com.karendamore.jardin.model.JardinItem
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import java.io.InputStream
 
 class ListViewModel : ViewModel() {
     private var jardinLoad : MutableLiveData<ArrayList<JardinItem>> = MutableLiveData()
     val onJardinLoaded: LiveData<ArrayList<JardinItem>> = jardinLoad
+
+    private val repository = JardinRepository()
+
+    @DelicateCoroutinesApi
+    fun getJardinFromServer(){
+        GlobalScope.launch(Dispatchers.IO) {
+            jardinLoad.postValue(repository.getJardin())
+        }
+    }
 
     fun loadMockJardinFromJson(jardinString: InputStream?) {
         @Suppress("NAME_SHADOWING")

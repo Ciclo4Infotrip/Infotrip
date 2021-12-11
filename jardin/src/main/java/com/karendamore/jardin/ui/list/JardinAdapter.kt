@@ -1,4 +1,4 @@
-package com.karendamore.jardin.list
+package com.karendamore.jardin.ui.list
 
 
 import android.util.Log

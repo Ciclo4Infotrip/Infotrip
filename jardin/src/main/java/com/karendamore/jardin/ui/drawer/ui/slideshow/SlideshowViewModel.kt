@@ -1,4 +1,4 @@
-package com.karendamore.jardin.drawer.ui.slideshow
+package com.karendamore.jardin.ui.drawer.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

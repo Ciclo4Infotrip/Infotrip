@@ -1,11 +1,11 @@
-package com.karendamore.jardin.preference
+package com.karendamore.jardin.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.karendamore.jardin.R
-import com.karendamore.jardin.main.MainActivity
+import com.karendamore.jardin.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat(){
 

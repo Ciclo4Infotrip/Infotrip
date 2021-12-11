@@ -33,16 +33,16 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".drawer.DrawerActivity"
+            android:name="com.karendamore.jardin.ui.drawer.DrawerActivity"
             android:exported="true"
             android:label="@string/title_activity_drawer"
             android:theme="@style/Theme.Infotrip.NoActionBar"/>
         <activity
-            android:name=".bottom.BottomActivity"
+            android:name="com.karendamore.jardin.ui.bottom.BottomActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom"/>
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.karendamore.jardin.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

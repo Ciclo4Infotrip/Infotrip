@@ -1,51 +1,53 @@
-[
-  {
-    "nombre" : "Basílica de la Inmaculada Concepción",
-    "descripcion" : "Es una basílica católica colombiana, es un templo de estilo neogótico.",
-    "informacion" : "La Basílica Menor de La Inmaculada Concepción es una de las iglesias más lindas de Antioquia, está construida en piedra labrada a mano, su estilo es neogótico y ha sido decorada en su interior con arcos recubiertos en oro. Fuera del templo hay un hermoso jardín de rosales, ceibas y guayacanes, que junto a las casas republicanas que la rodean, hacen de Jardín una de los destinos más lindos de Colombia. Llegar a la basílica es bastante fácil, pues está en el parque principal, solo debes caminar un par de calles y levantar tu mirada para ver como sus torres te marcarán el camino a ella.",
-    "puntuacion" : "Puntuación: 4.8 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637642175/Jardin/IglesiaJardin_fdbmop.jpg"
-  },
-  {
-    "nombre" : "Mirador Cristo Rey",
-    "descripcion" : "Mirador y restaurante donde podrás divisar Jardín desde lo alto de la montaña.",
-    "informacion" : "Para llegar puedes caminar desde el parque principal de Jardín durante una 1 hora, o puedes ir en Tuk-Tuk durante unos 10 minutos llegaras al mirador. Una vez arriba, podrás apreciar una gran vista panorámica de Jardín y divisar todas las montañas que lo rodean. Arriba, también podrás encontrar un kiosko en el que puedes comer algo o tomar un delicioso café de origen. Cuando decidas bajar del Mirador de Cristo Rey, tendrás que hacerlo por un sendero muy bonito que atraviesa el bosque de pino, algunos platanales, cafetales, y hasta un río. Este sendero te llevará en unos 30 minutos al centro del pueblo.",
-    "puntuacion" : "Puntuación: 4.5 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633565/Jardin/CristoRey_q7p2zz.jpg"
-  },
-  {
-    "nombre" : "Teleférico la Garrucha",
-    "descripcion" : "Medio de transporte de pasajeros y de mercancías, comunica el pueblo con la vereda Serranías.",
-    "informacion" : "El Teleférico La Garrucha es un transporte autóctono que utilizaban los campesinos para moverse entre el pueblo y sus fincas y también mover con mucho más rápido sus cosechas. El plan consiste en subir en el teleférico hasta la cima del cerro, disfrutar de la vista y luego bajar de nuevo en La Garrucha o caminar unos 40 minutos por un sendero ecológico que va a las cristalinas aguas de Charco Corazón.",
-    "puntuacion" : "Puntuación: 4.4 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637642187/Jardin/TelefericoGarrucha_b8dphl.jpg"
-  },
-  {
-    "nombre" : "Cueva del Esplendor",
-    "descripcion" : "Cueva donde la fuerza del agua abrió un agujero en una roca gigantesca de la montaña.",
-    "informacion" : "La Cueva del Esplendor también es conocida como la Cueva del Encanto y es una de las atracciones naturales más emblemáticas del municipio de Jardín. Para llegar a la Cueva del Esplendor deberás ir al parque de Jardín y contratar una agencia local que te ofrezca un tour que incluya guía, transporte y refrigerios. Una vez tengas todo cuadrado con el operador local, te recogerán en Jeep y te llevarán hasta la vereda más cercana a la entrada de la cueva, donde te espera un buen refrigerio y un par de caminatas antes de llegar a la cascada.",
-    "puntuacion" : "Puntuación: 4.8 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633585/Jardin/CuevaEsplendor_kbzvzu.jpg"
-  },
-  {
-    "nombre" : "Las Trucheras",
-    "descripcion" : "En ellas puedes disfrutar de las diversas preparaciones culinarias de la Trucha.",
-    "informacion" : "Truchera MonteMar: de la pesca y de una rica trucha, con una hermosa vista de Jardín Antioquia;  Truchería: es un sitio de recreo donde podrás encontrar Pesca Deportiva, Restaurante y Bar. Las truchas tienen unas preparaciones especiales como, por ejemplo, a la mostaza, finas hierbas y la Trucha Jardín, rellena de verduras; La Argelia Restaurante, Molienda (trapiche) y Truchera: Nos encontramos ubicados en el km 2 de la vía que conduce a la vereda la salada en el bello municipio de Jardín Antioquia, a solo 5 minutos del área urbana en carro o moto carro, comúnmente llamadas moto ratones.",
-    "puntuacion" : "Puntuación: 4.2 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633825/Jardin/Trucheras_bh5oad.jpg"
-  },
-  {
-    "nombre" : "Café Macanas Jardín",
-    "descripcion" : "El mejor lugar en Jardín para tomarse un buen café y disfrutar de la más deliciosa pastelería.",
-    "informacion" : "Es un lugar con un concepto estético impresionante que acoge a cientos de visitantes y lugareños para ofrecer el mejor café, la más deliciosa repostería, dulces y bebidas. Cuenta la historia cafetera de la región a través de sus sabores, es el sitio perfecto para pasar un rato en compañía de la familia o amigos.",
-    "puntuacion" : "Puntuación: 4.7 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633617/Jardin/CafeMacanas_b4yrrp.jpg"
-  },
-  {
-    "nombre" : "Dulces Jardín",
-    "descripcion" : "Producción, preparación y comercialización de dulces típicos.",
-    "informacion" : "Una buena idea es probar los dulces típicos de Dulces del Jardín, uno de los rinconcitos más coloridos del pueblo, en el que habitantes y visitantes encuentran arequipes, mermeladas y algunos productos bajos en azúcar.",
-    "puntuacion" : "Puntuación: 4.7 / 5",
-    "urlPicture" : "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633624/Jardin/DulcesJardin_ntiohb.jpg"
-  }
-]
+{
+  "jardin": [
+    {
+      "nombre": "Basílica de la Inmaculada Concepción",
+      "descripcion": "Es una basílica católica colombiana, es un templo de estilo neogótico.",
+      "informacion": "La Basílica Menor de La Inmaculada Concepción es una de las iglesias más lindas de Antioquia, está construida en piedra labrada a mano, su estilo es neogótico y ha sido decorada en su interior con arcos recubiertos en oro. Fuera del templo hay un hermoso jardín de rosales, ceibas y guayacanes, que junto a las casas republicanas que la rodean, hacen de Jardín una de los destinos más lindos de Colombia. Llegar a la basílica es bastante fácil, pues está en el parque principal, solo debes caminar un par de calles y levantar tu mirada para ver como sus torres te marcarán el camino a ella.",
+      "puntuacion": "Puntuación: 4.8 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637642175/Jardin/IglesiaJardin_fdbmop.jpg"
+    },
+    {
+      "nombre": "Mirador Cristo Rey",
+      "descripcion": "Mirador y restaurante donde podrás divisar Jardín desde lo alto de la montaña.",
+      "informacion": "Para llegar puedes caminar desde el parque principal de Jardín durante una 1 hora, o puedes ir en Tuk-Tuk durante unos 10 minutos llegaras al mirador. Una vez arriba, podrás apreciar una gran vista panorámica de Jardín y divisar todas las montañas que lo rodean. Arriba, también podrás encontrar un kiosko en el que puedes comer algo o tomar un delicioso café de origen. Cuando decidas bajar del Mirador de Cristo Rey, tendrás que hacerlo por un sendero muy bonito que atraviesa el bosque de pino, algunos platanales, cafetales, y hasta un río. Este sendero te llevará en unos 30 minutos al centro del pueblo.",
+      "puntuacion": "Puntuación: 4.5 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633565/Jardin/CristoRey_q7p2zz.jpg"
+    },
+    {
+      "nombre": "Teleférico la Garrucha",
+      "descripcion": "Medio de transporte de pasajeros y de mercancías, comunica el pueblo con la vereda Serranías.",
+      "informacion": "El Teleférico La Garrucha es un transporte autóctono que utilizaban los campesinos para moverse entre el pueblo y sus fincas y también mover con mucho más rápido sus cosechas. El plan consiste en subir en el teleférico hasta la cima del cerro, disfrutar de la vista y luego bajar de nuevo en La Garrucha o caminar unos 40 minutos por un sendero ecológico que va a las cristalinas aguas de Charco Corazón.",
+      "puntuacion": "Puntuación: 4.4 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637642187/Jardin/TelefericoGarrucha_b8dphl.jpg"
+    },
+    {
+      "nombre": "Cueva del Esplendor",
+      "descripcion": "Cueva donde la fuerza del agua abrió un agujero en una roca gigantesca de la montaña.",
+      "informacion": "La Cueva del Esplendor también es conocida como la Cueva del Encanto y es una de las atracciones naturales más emblemáticas del municipio de Jardín. Para llegar a la Cueva del Esplendor deberás ir al parque de Jardín y contratar una agencia local que te ofrezca un tour que incluya guía, transporte y refrigerios. Una vez tengas todo cuadrado con el operador local, te recogerán en Jeep y te llevarán hasta la vereda más cercana a la entrada de la cueva, donde te espera un buen refrigerio y un par de caminatas antes de llegar a la cascada.",
+      "puntuacion": "Puntuación: 4.8 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633585/Jardin/CuevaEsplendor_kbzvzu.jpg"
+    },
+    {
+      "nombre": "Las Trucheras",
+      "descripcion": "En ellas puedes disfrutar de las diversas preparaciones culinarias de la Trucha.",
+      "informacion": "Truchera MonteMar: de la pesca y de una rica trucha, con una hermosa vista de Jardín Antioquia;  Truchería: es un sitio de recreo donde podrás encontrar Pesca Deportiva, Restaurante y Bar. Las truchas tienen unas preparaciones especiales como, por ejemplo, a la mostaza, finas hierbas y la Trucha Jardín, rellena de verduras; La Argelia Restaurante, Molienda (trapiche) y Truchera: Nos encontramos ubicados en el km 2 de la vía que conduce a la vereda la salada en el bello municipio de Jardín Antioquia, a solo 5 minutos del área urbana en carro o moto carro, comúnmente llamadas moto ratones.",
+      "puntuacion": "Puntuación: 4.2 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633825/Jardin/Trucheras_bh5oad.jpg"
+    },
+    {
+      "nombre": "Café Macanas Jardín",
+      "descripcion": "El mejor lugar en Jardín para tomarse un buen café y disfrutar de la más deliciosa pastelería.",
+      "informacion": "Es un lugar con un concepto estético impresionante que acoge a cientos de visitantes y lugareños para ofrecer el mejor café, la más deliciosa repostería, dulces y bebidas. Cuenta la historia cafetera de la región a través de sus sabores, es el sitio perfecto para pasar un rato en compañía de la familia o amigos.",
+      "puntuacion": "Puntuación: 4.7 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633617/Jardin/CafeMacanas_b4yrrp.jpg"
+    },
+    {
+      "nombre": "Dulces Jardín",
+      "descripcion": "Producción, preparación y comercialización de dulces típicos.",
+      "informacion": "Una buena idea es probar los dulces típicos de Dulces del Jardín, uno de los rinconcitos más coloridos del pueblo, en el que habitantes y visitantes encuentran arequipes, mermeladas y algunos productos bajos en azúcar.",
+      "puntuacion": "Puntuación: 4.7 / 5",
+      "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633624/Jardin/DulcesJardin_ntiohb.jpg"
+    }
+  ]
+}
