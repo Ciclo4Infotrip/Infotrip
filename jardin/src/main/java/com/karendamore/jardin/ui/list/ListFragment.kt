@@ -34,7 +34,7 @@ class ListFragment : Fragment() {
 
         //listViewModel.loadMockJardinFromJson(context?.assets?.open("jardin.json"))
 
-        listViewModel.getJardinFromServer()
+        listViewModel. getJardinFromServer()
 
         listViewModel.onJardinLoaded.observe(viewLifecycleOwner, { result ->
             onJardinLoadedSubscribe(result)

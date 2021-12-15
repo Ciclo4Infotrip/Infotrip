@@ -25,7 +25,8 @@ class MapsFragment : Fragment() {
                 .position(iglesia)
                 .title("Basílica de la Inmaculada Concepción")
                 .snippet("Basílica "))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(iglesia,18F))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(iglesia,15F))
+
     }
 
     override fun onCreateView(
