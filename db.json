@@ -51,8 +51,8 @@
       "informacion": "Es un lugar con un concepto estético impresionante que acoge a cientos de visitantes y lugareños para ofrecer el mejor café, la más deliciosa repostería, dulces y bebidas. Cuenta la historia cafetera de la región a través de sus sabores, es el sitio perfecto para pasar un rato en compañía de la familia o amigos.",
       "puntuacion": "Puntuación: 4.7 / 5",
       "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633617/Jardin/CafeMacanas_b4yrrp.jpg",
-      "latitud": 5.5987398,
-      "longitud": -75.8211915 
+      "latitud": 5.5984373,
+      "longitud": -75.8184085 
     },
     {
       "nombre": "Dulces Jardín",
@@ -60,8 +60,8 @@
       "informacion": "Una buena idea es probar los dulces típicos de Dulces del Jardín, uno de los rinconcitos más coloridos del pueblo, en el que habitantes y visitantes encuentran arequipes, mermeladas y algunos productos bajos en azúcar.",
       "puntuacion": "Puntuación: 4.7 / 5",
       "urlPicture": "https://res.cloudinary.com/dofzqtr4i/image/upload/v1637633624/Jardin/DulcesJardin_ntiohb.jpg",
-      "latitud": 5.5971758,
-      "longitud": -75.8189458
+      "latitud": 5.5971755,
+      "longitud": -75.8168671
     }
   ]
 }
