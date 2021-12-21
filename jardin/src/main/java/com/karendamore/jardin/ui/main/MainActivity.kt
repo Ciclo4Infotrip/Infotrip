@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
         val fm : FragmentManager = supportFragmentManager
         val ft : FragmentTransaction = fm.beginTransaction()
 

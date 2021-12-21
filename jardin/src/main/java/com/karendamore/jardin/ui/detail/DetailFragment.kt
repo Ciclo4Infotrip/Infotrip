@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
-    private val detailVieModel: DetailViewModel by viewModels()
+    private val detailViewModel: DetailViewModel by viewModels()
     private val args: DetailFragmentArgs by navArgs()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,8 +43,8 @@ class DetailFragment : Fragment() {
             puntuacionTextView.text = jardin.puntuacion
             Picasso.get().load(jardin.urlPicture).into(pictureImageView)
 
-            mapButton.setOnClickListener {
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+            mapButton.setOnClickListener () {
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(jardin = jardin))
             }
         }
     }

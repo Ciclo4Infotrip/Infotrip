@@ -10,7 +10,7 @@
         style="@style/Texto_normal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MainActivity">
+        tools:context=".detalle.DetalleActivity">
 
         <TextView
             android:id="@+id/name_text_view"

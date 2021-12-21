@@ -35,7 +35,11 @@
         android:label="@string/title_preference" />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.karendamore.jardin.ui.bottom.maps.MapsFragment"
+        android:name="com.karendamore.jardin.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="jardin"
+            app:argType="com.karendamore.jardin.model.JardinItem" />
+    </fragment>
 </navigation>

@@ -15,4 +15,9 @@ data class JardinItem(
     val urlPicture: String,
     @SerializedName("informacion")
     val informacion: String,
+    @SerializedName("latitud")
+    val latitud: Double,
+    @SerializedName("longitud")
+    val longitud: Double
+
 ) : Serializable

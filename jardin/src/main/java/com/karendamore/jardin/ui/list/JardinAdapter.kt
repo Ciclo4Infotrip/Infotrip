@@ -36,6 +36,7 @@ class JardinAdapter(
     fun appendItems(newItems: ArrayList<JardinItem>) {
         jardinList.clear()
         jardinList.addAll(newItems)
+        notifyDataSetChanged()
     }
 
     class JardinViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){

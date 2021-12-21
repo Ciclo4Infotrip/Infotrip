@@ -7,7 +7,6 @@ import com.google.gson.Gson
 import com.karendamore.jardin.data.JardinRepository
 import com.karendamore.jardin.model.Jardin
 import com.karendamore.jardin.model.JardinItem
-import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -19,7 +18,7 @@ class ListViewModel : ViewModel() {
 
     private val repository = JardinRepository()
 
-    @DelicateCoroutinesApi
+
     fun getJardinFromServer(){
         GlobalScope.launch(Dispatchers.IO) {
             jardinLoad.postValue(repository.getJardin())
@@ -27,7 +26,6 @@ class ListViewModel : ViewModel() {
     }
 
     fun loadMockJardinFromJson(jardinString: InputStream?) {
-        @Suppress("NAME_SHADOWING")
         val jardinString = jardinString?.bufferedReader().use { it!!.readText() }
         val gson = Gson()
         jardinLoad.value = gson.fromJson(jardinString, Jardin::class.java)
